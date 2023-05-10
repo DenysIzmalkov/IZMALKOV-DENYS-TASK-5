@@ -1,0 +1,148 @@
+/*--------------------*/
+/* BASIC TYPOGRAPHY */
+/*--------------------*/
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+h2.underline{
+	margin: 50px;
+}
+
+h2.underline:after
+{
+    width: 80px;
+    height: 2px;
+    background-color: #dbead3;
+    display: block;
+    content: "";
+    margin:0 auto;
+    margin-top: 10px;
+    
+    
+}
+
+
+.container {
+	padding: 80px 0 ;
+}
+
+
+.raw img {
+	padding: 10px;
+}
+
+
+
+/*--------------------*/
+/* NAVIGATION */
+/*--------------------*/
+
+
+.navbar {
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 100px;
+	padding: 0 0 10px 30px;
+}
+.navbar-brand img{
+	height: 80px;
+	width: 120px;
+
+}
+
+.navbar-inverse .navbar-nav li {
+	padding-top: 10px;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a:active {
+	color: #303130;
+}
+
+
+
+/*--------------------*/
+/* HOME SECTION */
+/*--------------------*/
+#home {
+	background: url(img/saladdddddd.avif) no-repeat center fixed;
+	display: table;
+	height: 130%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #292929;
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+
+
+/*--------------------*/
+/* FOOTER SECTION */
+/*--------------------*/
+
+
+
+
+
+footer .container-fluid i {
+    font-size: 200%;
+     color: #e7e9ea;
+    margin: 1%;
+    padding: 3%;
+    
+}
+ 
+footer .container-fluid i:hover {
+
+	color: #aaa8a8;
+} 
+
+
+
+/*--------------------*/
+/* Media Queries */
+/*--------------------*/
+
+
+@media screen and (max-width:768px) {
+
+	.landing-text h1 {
+		font-size: 400%;
+   }
+
+   .item h2 {
+   	font-size: 150%;
+   }
+
+} 
+
+
+
+
